@@ -166,14 +166,14 @@ export const RadioPlayer: React.FC<RadioPlayerProps> = ({radioId}) => {
                             size="sm" 
                             variant="flat" 
                             color="primary"
-                            onClick={() => navigator.clipboard.writeText("npx aifm")}
+                            onClick={() => navigator.clipboard.writeText("npx ai-fm-cli")}
                           >
                             Copy
                           </Button>
                         </div>
                         <Card className="bg-gray-50 p-2">
                           <code className="text-xs break-all">
-                            npx aifm
+                            npx ai-fm-cli
                           </code>
                         </Card>
                       </div>
@@ -453,14 +453,14 @@ export const RadioPlayer: React.FC<RadioPlayerProps> = ({radioId}) => {
                           size="sm" 
                           variant="flat" 
                           color="primary"
-                          onPress={() => navigator.clipboard.writeText("npx aifm")}
+                          onPress={() => navigator.clipboard.writeText("npx ai-fm-cli")}
                         >
                           Copy
                         </Button>
                       </div>
                       <Card className="bg-gray-50 p-2">
                         <code className="text-xs break-all">
-                          npx aifm
+                          npx ai-fm-cli
                         </code>
                       </Card>
                     </div>
